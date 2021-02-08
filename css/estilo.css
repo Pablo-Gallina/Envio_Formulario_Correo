@@ -1,0 +1,80 @@
+body{
+    background-color: #f2f5f7;
+}
+
+/*TOAST*/
+#mitoast {
+    visibility: hidden;
+    position: fixed;
+    z-index: 1;
+    right: 2.5%;
+    top: 2%;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: .25rem;
+    box-shadow: 0 0.25rem 0.75rem rgba(0,0,0,.1);
+    max-width: 310px;
+    width: 310px;
+    background-color: #ffffff;
+    opacity: 1;
+}
+
+#mitoast.mostrar {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 4.6s;
+    animation: fadein 0.5s, fadeout 0.5s 4.6s;
+}
+#mitoast.cerrar {
+    /* visibility: visible; */
+    -webkit-animation: fadeout 0.5s 4.8s;
+    animation: fadeout 0.5s 4.8s;
+}
+
+/*TOAST*/
+
+.contenedor{
+    width: 60%;
+    background-color: #b0ffc1;
+}
+
+
+
+body{
+    background: rgb(255,166,98);
+    background: linear-gradient(98deg, rgba(255,166,98,1) 0%, rgb(255, 125, 92) 100%, rgb(255, 121, 68) 100%);
+}
+.principal{
+    display: flex;
+    justify-content: center;
+    
+}
+.contenedor{
+    margin-top: 5%;
+    width: 50%;
+    max-width: 800px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgb(29, 29, 29, 0.5);
+    border-radius: 5px;
+    padding: 50px 60px 50px 30px;
+    position: relative;
+    
+}
+
+.contenedor input{
+    display: block;
+}
+
+.contenedor h1{
+    color: rgb(240, 107, 18);
+}
+
+.barra{
+    background-color: rgb(240, 107, 18);
+    width: 30px;
+    height: 100%;
+    position: absolute;
+    border-radius: 0 5px 5px 0;
+    top: 0%;
+    right: 0%;
+}
+
+
